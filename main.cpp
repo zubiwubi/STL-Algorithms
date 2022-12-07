@@ -29,7 +29,6 @@ int main()
 				std::cout << c;
 			}
 
-			/* very small check to not have a comma at the end */
 			if (it != colours.end() - 1)
 			{
 				std::cout << ", ";
@@ -37,7 +36,6 @@ int main()
 		}
 		std::cout << std::endl;
 	}
-
 	{
 		std::vector<std::string> colours{ "red", "green", "white", "blue", "orange", "green", "orange", "black", "purple" };
 		/* 3) Alle dubbele te verwijderen */
@@ -58,7 +56,6 @@ int main()
 				rememberIt = colours.begin();
 			}
 
-			/* very small check to not have a comma at the end */
 			if (it != colours.end() - 1)
 			{
 				std::cout << *it << ", ";
@@ -87,7 +84,6 @@ int main()
 				rememberIt = numbers.begin();
 			}
 
-			/* very small check to not have a comma at the end */
 			if (it != numbers.end() - 1)
 			{
 				std::cout << *it << ", ";
